@@ -7,6 +7,7 @@
     <title>AI Poem Generator</title>
 </head>
 <body>
+    <div class="container">
     <header>
         <h1>AI Poem Generator</h1>
     </header>
@@ -16,10 +17,11 @@
             <input type="text" placeholder="Enter the topic of the poem" 
             autofocus 
             required 
-            autocmplete="off"/>
-            <input type="submit" />
+            autocmplete="off"
+            class="generator"/>
+            <input type="submit" class="generator-submit"/>
         </form>
-        <div>
+        <div class="generator-result">
             The poem will appear here.
         </div>
      </main>
@@ -32,6 +34,7 @@
         on GitHub and is hosted on
         <a href="https://ai-poemgenerator.netlify.app"> Netlify.</a>
     </footer>
+</div>
     <script src="index.js"></script>
 </body>
 </html>
