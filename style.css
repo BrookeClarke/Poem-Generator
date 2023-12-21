@@ -1,10 +1,10 @@
 body {
-    background-color: #f9f7fe;
+    background-color: #e9f0fa;
     font-family: Helvetica;
 }
 
 a {
-    color: #885df1;
+    color: #89c1fd;
 }
 
 .container {
@@ -20,7 +20,7 @@ h1 {
     font-weight: 800;
     font-size: 36px;
     line-height: 1.5;
-    color: #272044;
+    color: #001e3a;
     text-align: center;
 }
 
@@ -54,10 +54,10 @@ form {
 
 .generator-submit {
     margin-left: 10px;
-    background-color: #885df1;
+    background-color: #89c1fd;
     color: white;
     border: none;
-    border-radius: 50px;
+    border-radius: 10px;
     padding: 14px 24px;
     width: 150px;
     font-size: 16px;
@@ -68,7 +68,7 @@ form {
     background-color: white;
     padding: 20px;
     line-height: 2;
-    border-left: 3px solid #885df1;
+    border-left: 3px solid #b2d3f6;
     box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
     border-radius: 10px;
 }
@@ -88,7 +88,7 @@ footer {
       visibility: hidden;
     }
   }
-  
+
 @-webkit-keyframes blink-animation {
     to {
       visibility: hidden;
