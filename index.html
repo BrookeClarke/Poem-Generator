@@ -15,15 +15,18 @@
     </header>
 
      <main>
+        <div class="form-container">
         <form id="generator-form">
             <input id="user-instructions" type="text" placeholder="Enter the topic of the poem" 
-            autofocus 
+            autofocus
             required 
             autocmplete="off"
             class="generator"/>
             <input type="submit" class="generator-submit"/>
         </form>
-        <div class="generator-result" id="generator-result"></div>
+        <div class="topic-examples">Example: Flower, Paris or Home</div>
+    </div>
+        <div class="generator-result hidden" id="generator-result"></div>
      </main>
 
      <footer>
